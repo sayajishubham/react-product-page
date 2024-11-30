@@ -1,0 +1,23 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.Input-Container{
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 18px;
+    margin-top: 10px;
+}
+#Image-Url{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.btn-submit{
+    padding: 10px;
+    margin-left: 120px;
+}

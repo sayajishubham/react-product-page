@@ -1,0 +1,79 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.Heading-data {
+  text-align: center;
+}
+
+.Container {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.Main-Container {
+  width: 350px;
+  height: auto;
+  border: 1px solid grey;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* .Main-Container:hover {
+    box-shadow: 0px 2px 6px black;
+    transform: translateY(-10px);
+} */
+
+.image-box {
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+  margin: auto;
+}
+
+.Container-title {
+  padding: 10px;
+}
+
+.Container-title1 {
+  padding-top: 15px;
+}
+
+.Container-Price {
+  padding-top: 10px;
+}
+.btn-group {
+  width: 50%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.btn-Edit {
+  padding: 10px;
+}
+.btn-Delete {
+  padding: 10px;
+}
+.input-Container {
+  width: 300px;
+  height: 100px;
+  margin: auto;
+  margin-bottom: 18px;
+  margin-top: 10px;
+}
+#editdata {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  margin-bottom: 20px;
+}
+.btn-Update {
+  padding: 10px;
+  margin-left: 120px;
+}
